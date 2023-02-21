@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(19, 49, 75);
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    color:white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links:hover{
+    color:grey;
+}
+
+.routing-li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.students-li {
+    font-style: italic;
+}
+
+.all-charts{
+    height: 570px;
+    background-color: white;
+}
+
+.averages-chart{
+    margin-top: -50px;
+}
+
+.student-chart{
+    margin-top: -30px;
+}
+
+.router-list{
+    margin-top: 50px;
+}
+
+.chart-title, .students-title{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.students-title {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    padding-top: 10px;
+}
+
+.checkbox{ 
+    cursor: pointer;
+    margin: 10px 0 0 35px;
+    transform: scale(2);
+    accent-color: black;
+}
+
+.text-checkbox{
+    margin-top: 10px;
+    margin-left: 25px;
+}
