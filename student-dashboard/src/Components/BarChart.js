@@ -3,7 +3,7 @@ import BarChartLayout from "./BarChartLayout";
 import LineChart from "./LineChart";
 
 const BarChart = ({ allData, averageDifficulty, averageFun }) => {
-    const [checked, setChecked] = useState(false)
+    const [checked, setChecked] = useState(false);
 
     return (
         <div className="all-charts">

@@ -2,7 +2,7 @@ import React from "react";
 import { VictoryChart, VictoryAxis, VictoryTheme, VictoryLabel, VictoryLine, VictoryScatter, VictoryLegend } from "victory";
 
 const LineChart = ({ allData, difficultyData, funData }) => {
-    const getAssignments = [...new Set(allData.map(student => student.assignment))]
+    const getAssignments = [...new Set(allData.map(student => student.assignment))];
 
     return (
         <div className="all-charts">

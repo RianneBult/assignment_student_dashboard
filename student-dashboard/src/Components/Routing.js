@@ -4,7 +4,7 @@ import BarChart from "./BarChart";
 import StudentsChart from "./StudentsChart";
 
 const Routing = ({ allData, averageDifficulty, averageFun }) => {
-    const names = [...new Set(allData.map(student => student.name))]
+    const names = [...new Set(allData.map(student => student.name))];
 
     return (
         <div>

@@ -9,7 +9,6 @@ const FilterData = () => {
         .map(item => filterAssignments(item))
 
     const averageDifficulty = sortedAssignments.map(student => student.map(item => item.difficulty).reduce((a, b) => (a + Number(b)), 0) / student.length)
-
     const averageFun = sortedAssignments.map(student => student.map(item => item.fun).reduce((a, b) => (a + Number(b)), 0) / student.length)
 
     return (

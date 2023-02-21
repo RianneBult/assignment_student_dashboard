@@ -3,7 +3,7 @@ import { VictoryChart, VictoryAxis, VictoryGroup, VictoryStack, VictoryTheme, Vi
 import data from "../Data/Data";
 
 const ChartLayout = ({ difficultyData, funData }) => {
-    const getAssignments = [...new Set(data.map(student => student.assignment))]
+    const getAssignments = [...new Set(data.map(student => student.assignment))];
 
     return (
         <div className="all-charts">

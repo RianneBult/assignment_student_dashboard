@@ -8,7 +8,6 @@ const StudentsChart = ({ allData }) => {
     const filterNames = allData.filter(item => item.name === name).map(student => student)
 
     const getDifficultys = filterNames.map(student => student.difficulty)
-
     const getFuns = filterNames.map(student => student.fun)
 
     return (
