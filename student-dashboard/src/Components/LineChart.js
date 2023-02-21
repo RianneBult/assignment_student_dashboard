@@ -28,7 +28,7 @@ const LineChart = ({ allData, difficultyData, funData }) => {
 
                 <VictoryAxis
                     tickFormat={x => ``}
-                    tickCount={getAssignments.length}                    // tickValues={[...new Set(data.map(student => student.assignment))]}
+                    tickCount={getAssignments.length}
                 />
 
                 <VictoryAxis

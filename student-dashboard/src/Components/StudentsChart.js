@@ -6,13 +6,10 @@ const StudentsChart = ({ allData }) => {
     const { name } = useParams();
 
     const filterNames = allData.filter(item => item.name === name).map(student => student)
-    console.log("filterNames", filterNames)
 
     const getDifficultys = filterNames.map(student => student.difficulty)
-    console.log(getDifficultys)
 
     const getFuns = filterNames.map(student => student.fun)
-    console.log(getFuns)
 
     return (
         <div>

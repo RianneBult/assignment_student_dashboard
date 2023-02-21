@@ -33,4 +33,4 @@ const BarChart = ({ allData, averageDifficulty, averageFun }) => {
     )
 }
 
-export default BarChart; 
+export default BarChart;
