@@ -56,6 +56,7 @@ ul{
 .chart-title, .students-title{
     padding-left: 10px;
     margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .students-title {
@@ -75,4 +76,5 @@ ul{
 .text-checkbox{
     margin-top: 10px;
     margin-left: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

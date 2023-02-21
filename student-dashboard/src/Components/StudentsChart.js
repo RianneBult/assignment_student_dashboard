@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import ChartLayout from "./ChartLayout";
+import BarChartLayout from "./BarChartLayout";
 
 const StudentsChart = ({ allData }) => {
     const { name } = useParams();
@@ -20,7 +20,7 @@ const StudentsChart = ({ allData }) => {
             <div className="all-charts student-chart">
                 <h2 className="students-title">Student {name}</h2>
 
-                <ChartLayout
+                <BarChartLayout
                     difficultyData={getDifficultys}
                     funData={getFuns}
                 />

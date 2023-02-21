@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ChartLayout from "./ChartLayout";
+import BarChartLayout from "./BarChartLayout";
 import LineChart from "./LineChart";
 
 const BarChart = ({ allData, averageDifficulty, averageFun }) => {
@@ -24,7 +24,7 @@ const BarChart = ({ allData, averageDifficulty, averageFun }) => {
                         difficultyData={averageDifficulty}
                         funData={averageFun}
                     /> :
-                    <ChartLayout
+                    <BarChartLayout
                         difficultyData={averageDifficulty}
                         funData={averageFun}
                     />}
